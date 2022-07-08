@@ -28,11 +28,14 @@ extension UIViewController {
      
      Important Note:
      
-     Base in the position of the cases in `UIAlertAction.Style`,
-     whenever there's `destructive` button, it will always be placed in the leading side.
-     The `cancel` will follow the `destructive`, and `default` will be placed in the trailing (last).
+     The `cancel` type, regardless of the arrangement of the action (ie hierarchy of how you add them),
+     the button with this type will ALWAYS be placed in the leading.
      
-     Guidelines: https://developer.apple.com/design/human-interface-guidelines/components/presentation/alerts/
+     Meanwhile, the `destructive` amd tje `default` types will ALWAYS follow how they are added (ie. positions or hierarchies.)
+     
+     Guidelines:
+     
+     https://developer.apple.com/design/human-interface-guidelines/components/presentation/alerts/
      
      - parameter title: The title of the alert.
      - parameter message: The body of the alert, nullable, since we can just sometimes use the title parameter.
