@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k1v-pO-eTc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="noj-CL-nyX">
+            <objects>
+                <viewController id="k1v-pO-eTc" customClass="ViewController" customModule="GPAlertHelper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zuu-4y-Vtj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0OR-oN-wc0">
+                                <rect key="frame" x="16" y="60" width="382" height="148"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOR-lc-nIx">
+                                        <rect key="frame" x="101.5" y="0.0" width="179" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="DEFAULT-CONVENIENT">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="defaultConvenientAlert:" destination="k1v-pO-eTc" eventType="touchUpInside" id="pzj-Pf-DOj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwj-ou-Br8">
+                                        <rect key="frame" x="31" y="39" width="320.5" height="31"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Primary As Destructive | Secondary As Cancel">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="primaryAsDestructive:" destination="k1v-pO-eTc" eventType="touchUpInside" id="LHX-Jv-WsE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rT-ea-3vq">
+                                        <rect key="frame" x="30" y="78" width="322.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Primary As Destructive | Secondary As Default">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="primaryAsDestructiveSecondaryAsDefault:" destination="k1v-pO-eTc" eventType="touchUpInside" id="kTt-Ke-3DI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4be-IW-ZHH">
+                                        <rect key="frame" x="45" y="117" width="292.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Primary As Cancel | Secondary As Default">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="primaryAsCancel:" destination="k1v-pO-eTc" eventType="touchUpInside" id="q98-0r-wwe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gWH-pn-Ukj">
+                                <rect key="frame" x="36" y="238" width="342.5" height="109"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frp-xc-Eu2">
+                                        <rect key="frame" x="1" y="0.0" width="340.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Secondary As DESTRUCTIVE | Primary As Cancel">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="secondaryAsDestructive:" destination="k1v-pO-eTc" eventType="touchUpInside" id="MIP-0f-dAE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Pa-xF-TbU">
+                                        <rect key="frame" x="0.0" y="39" width="342.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Secondary As DESTRUCTIVE | Primary As Default">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="secondaryAsDestructivePrimaryAsDefault:" destination="k1v-pO-eTc" eventType="touchUpInside" id="mKW-ub-cf7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5f-m9-jdL">
+                                        <rect key="frame" x="25" y="78" width="292.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Secondary As Cancel | Primary As Default">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="secondaryAsCancelPrimaryAsDefault:" destination="k1v-pO-eTc" eventType="touchUpInside" id="5Wz-yM-FNl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h60-GJ-skK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gWH-pn-Ukj" firstAttribute="top" secondItem="0OR-oN-wc0" secondAttribute="bottom" constant="30" id="4Yj-RB-PF2"/>
+                            <constraint firstItem="h60-GJ-skK" firstAttribute="trailing" secondItem="0OR-oN-wc0" secondAttribute="trailing" constant="16" id="Jiv-1Q-53d"/>
+                            <constraint firstItem="0OR-oN-wc0" firstAttribute="top" secondItem="h60-GJ-skK" secondAttribute="top" constant="16" id="P3R-uN-cjI"/>
+                            <constraint firstItem="gWH-pn-Ukj" firstAttribute="centerX" secondItem="0OR-oN-wc0" secondAttribute="centerX" id="eNu-bT-Xkq"/>
+                            <constraint firstItem="0OR-oN-wc0" firstAttribute="leading" secondItem="h60-GJ-skK" secondAttribute="leading" constant="16" id="w02-hk-APu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="swb-wj-pQQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

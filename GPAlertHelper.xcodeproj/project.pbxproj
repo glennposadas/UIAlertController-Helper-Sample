@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45FBC56F28781687004C8CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC56E28781687004C8CD0 /* AppDelegate.swift */; };
+		45FBC57128781687004C8CD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC57028781687004C8CD0 /* SceneDelegate.swift */; };
+		45FBC57328781687004C8CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC57228781687004C8CD0 /* ViewController.swift */; };
+		45FBC57628781687004C8CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FBC57428781687004C8CD0 /* Main.storyboard */; };
+		45FBC57828781689004C8CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FBC57728781689004C8CD0 /* Assets.xcassets */; };
+		45FBC57B28781689004C8CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FBC57928781689004C8CD0 /* LaunchScreen.storyboard */; };
+		45FBC58628781689004C8CD0 /* GPAlertHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC58528781689004C8CD0 /* GPAlertHelperTests.swift */; };
+		45FBC59028781689004C8CD0 /* GPAlertHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC58F28781689004C8CD0 /* GPAlertHelperUITests.swift */; };
+		45FBC59228781689004C8CD0 /* GPAlertHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC59128781689004C8CD0 /* GPAlertHelperUITestsLaunchTests.swift */; };
+		45FBC5A0287816B2004C8CD0 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC59F287816B2004C8CD0 /* UIViewController+Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FBC58228781689004C8CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FBC56328781687004C8CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FBC56A28781687004C8CD0;
+			remoteInfo = GPAlertHelper;
+		};
+		45FBC58C28781689004C8CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FBC56328781687004C8CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FBC56A28781687004C8CD0;
+			remoteInfo = GPAlertHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45FBC56B28781687004C8CD0 /* GPAlertHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPAlertHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FBC56E28781687004C8CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45FBC57028781687004C8CD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45FBC57228781687004C8CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45FBC57528781687004C8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45FBC57728781689004C8CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FBC57A28781689004C8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45FBC57C28781689004C8CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FBC58128781689004C8CD0 /* GPAlertHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAlertHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FBC58528781689004C8CD0 /* GPAlertHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAlertHelperTests.swift; sourceTree = "<group>"; };
+		45FBC58B28781689004C8CD0 /* GPAlertHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAlertHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FBC58F28781689004C8CD0 /* GPAlertHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAlertHelperUITests.swift; sourceTree = "<group>"; };
+		45FBC59128781689004C8CD0 /* GPAlertHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAlertHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45FBC59F287816B2004C8CD0 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FBC56828781687004C8CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC57E28781689004C8CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC58828781689004C8CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FBC56228781687004C8CD0 = {
+			isa = PBXGroup;
+			children = (
+				45FBC56D28781687004C8CD0 /* GPAlertHelper */,
+				45FBC58428781689004C8CD0 /* GPAlertHelperTests */,
+				45FBC58E28781689004C8CD0 /* GPAlertHelperUITests */,
+				45FBC56C28781687004C8CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FBC56C28781687004C8CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FBC56B28781687004C8CD0 /* GPAlertHelper.app */,
+				45FBC58128781689004C8CD0 /* GPAlertHelperTests.xctest */,
+				45FBC58B28781689004C8CD0 /* GPAlertHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FBC56D28781687004C8CD0 /* GPAlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				45FBC59E287816A6004C8CD0 /* Source */,
+				45FBC56E28781687004C8CD0 /* AppDelegate.swift */,
+				45FBC57028781687004C8CD0 /* SceneDelegate.swift */,
+				45FBC57228781687004C8CD0 /* ViewController.swift */,
+				45FBC57428781687004C8CD0 /* Main.storyboard */,
+				45FBC57728781689004C8CD0 /* Assets.xcassets */,
+				45FBC57928781689004C8CD0 /* LaunchScreen.storyboard */,
+				45FBC57C28781689004C8CD0 /* Info.plist */,
+			);
+			path = GPAlertHelper;
+			sourceTree = "<group>";
+		};
+		45FBC58428781689004C8CD0 /* GPAlertHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FBC58528781689004C8CD0 /* GPAlertHelperTests.swift */,
+			);
+			path = GPAlertHelperTests;
+			sourceTree = "<group>";
+		};
+		45FBC58E28781689004C8CD0 /* GPAlertHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45FBC58F28781689004C8CD0 /* GPAlertHelperUITests.swift */,
+				45FBC59128781689004C8CD0 /* GPAlertHelperUITestsLaunchTests.swift */,
+			);
+			path = GPAlertHelperUITests;
+			sourceTree = "<group>";
+		};
+		45FBC59E287816A6004C8CD0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45FBC59F287816B2004C8CD0 /* UIViewController+Alert.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FBC56A28781687004C8CD0 /* GPAlertHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FBC59528781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelper" */;
+			buildPhases = (
+				45FBC56728781687004C8CD0 /* Sources */,
+				45FBC56828781687004C8CD0 /* Frameworks */,
+				45FBC56928781687004C8CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPAlertHelper;
+			productName = GPAlertHelper;
+			productReference = 45FBC56B28781687004C8CD0 /* GPAlertHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45FBC58028781689004C8CD0 /* GPAlertHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FBC59828781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelperTests" */;
+			buildPhases = (
+				45FBC57D28781689004C8CD0 /* Sources */,
+				45FBC57E28781689004C8CD0 /* Frameworks */,
+				45FBC57F28781689004C8CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FBC58328781689004C8CD0 /* PBXTargetDependency */,
+			);
+			name = GPAlertHelperTests;
+			productName = GPAlertHelperTests;
+			productReference = 45FBC58128781689004C8CD0 /* GPAlertHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FBC58A28781689004C8CD0 /* GPAlertHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FBC59B28781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelperUITests" */;
+			buildPhases = (
+				45FBC58728781689004C8CD0 /* Sources */,
+				45FBC58828781689004C8CD0 /* Frameworks */,
+				45FBC58928781689004C8CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FBC58D28781689004C8CD0 /* PBXTargetDependency */,
+			);
+			name = GPAlertHelperUITests;
+			productName = GPAlertHelperUITests;
+			productReference = 45FBC58B28781689004C8CD0 /* GPAlertHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FBC56328781687004C8CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					45FBC56A28781687004C8CD0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					45FBC58028781689004C8CD0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45FBC56A28781687004C8CD0;
+					};
+					45FBC58A28781689004C8CD0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45FBC56A28781687004C8CD0;
+					};
+				};
+			};
+			buildConfigurationList = 45FBC56628781687004C8CD0 /* Build configuration list for PBXProject "GPAlertHelper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45FBC56228781687004C8CD0;
+			productRefGroup = 45FBC56C28781687004C8CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FBC56A28781687004C8CD0 /* GPAlertHelper */,
+				45FBC58028781689004C8CD0 /* GPAlertHelperTests */,
+				45FBC58A28781689004C8CD0 /* GPAlertHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FBC56928781687004C8CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FBC57B28781689004C8CD0 /* LaunchScreen.storyboard in Resources */,
+				45FBC57828781689004C8CD0 /* Assets.xcassets in Resources */,
+				45FBC57628781687004C8CD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC57F28781689004C8CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC58928781689004C8CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FBC56728781687004C8CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FBC57328781687004C8CD0 /* ViewController.swift in Sources */,
+				45FBC56F28781687004C8CD0 /* AppDelegate.swift in Sources */,
+				45FBC57128781687004C8CD0 /* SceneDelegate.swift in Sources */,
+				45FBC5A0287816B2004C8CD0 /* UIViewController+Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC57D28781689004C8CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FBC58628781689004C8CD0 /* GPAlertHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FBC58728781689004C8CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FBC59228781689004C8CD0 /* GPAlertHelperUITestsLaunchTests.swift in Sources */,
+				45FBC59028781689004C8CD0 /* GPAlertHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FBC58328781689004C8CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FBC56A28781687004C8CD0 /* GPAlertHelper */;
+			targetProxy = 45FBC58228781689004C8CD0 /* PBXContainerItemProxy */;
+		};
+		45FBC58D28781689004C8CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FBC56A28781687004C8CD0 /* GPAlertHelper */;
+			targetProxy = 45FBC58C28781689004C8CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45FBC57428781687004C8CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FBC57528781687004C8CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45FBC57928781689004C8CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FBC57A28781689004C8CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FBC59328781689004C8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45FBC59428781689004C8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FBC59628781689004C8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPAlertHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45FBC59728781689004C8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPAlertHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45FBC59928781689004C8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPAlertHelper.app/GPAlertHelper";
+			};
+			name = Debug;
+		};
+		45FBC59A28781689004C8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPAlertHelper.app/GPAlertHelper";
+			};
+			name = Release;
+		};
+		45FBC59C28781689004C8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPAlertHelper;
+			};
+			name = Debug;
+		};
+		45FBC59D28781689004C8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glennposadas.GPAlertHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPAlertHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FBC56628781687004C8CD0 /* Build configuration list for PBXProject "GPAlertHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FBC59328781689004C8CD0 /* Debug */,
+				45FBC59428781689004C8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FBC59528781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FBC59628781689004C8CD0 /* Debug */,
+				45FBC59728781689004C8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FBC59828781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FBC59928781689004C8CD0 /* Debug */,
+				45FBC59A28781689004C8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FBC59B28781689004C8CD0 /* Build configuration list for PBXNativeTarget "GPAlertHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FBC59C28781689004C8CD0 /* Debug */,
+				45FBC59D28781689004C8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FBC56328781687004C8CD0 /* Project object */;
+}
