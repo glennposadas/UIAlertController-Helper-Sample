@@ -23,6 +23,7 @@ extension UIViewController {
               tintColor: .black,
               withBlock: completion)
     }
+    
     /**
      Presents an alertController with completion.
      
