@@ -10,13 +10,12 @@ extension UIViewController {
      */
     func alert(title: String,
                message: String? = nil,
-               primaryButton: String,
+               primaryButtonTitle: String,
                secondaryButtonTitle: String? = nil,
                tintColor: UIColor = .black,
                withBlock completion: AlertCallBack?) {
-        alert(title: title,
-              message: message ?? "",
-              primaryButtonTitle: primaryButton,
+        alert(title: title,              message: message ?? "",
+              primaryButtonTitle: primaryButtonTitle,
               primaryButtonStyle: .default,
               secondaryButtonTitle: secondaryButtonTitle,
               secondaryButtonStyle: .default,
@@ -26,6 +25,7 @@ extension UIViewController {
     
     /**
      Presents an alertController with completion.
+
      
      Important Note:
      
